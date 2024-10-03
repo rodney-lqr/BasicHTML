@@ -1,0 +1,56 @@
+
+
+.header{
+    display: flex;
+    background-color: #a9d42d;
+    border-radius: 5px;
+}
+
+@font-face {
+    font-family:'vag';
+    src: url(fonts/Vag\ Bold.ttf);
+}
+
+.header .header__nav .header__nav-list{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    align-items: center;
+} 
+.header__nav-item a{
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'vag';
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.header__nav-item .header__nav-link4{
+    font-size: 40px;
+    margin-left: 650px;
+}
+
+.btnCreate{
+    background-color: #a9d42d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: vag;
+    font-size: 15px;
+    margin-left: 45vh;
+}
+
+.__overview{
+    display: flex;
+}
+
+.__description{
+    font-family: 'vag';
+    margin-left: 700px;
+    margin-top: -300px;
+    font-size: 25px;
+    color:#a9d42d;
+}

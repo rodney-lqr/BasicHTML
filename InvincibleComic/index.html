@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMACSS</title>
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="CSS/module.css">
+    <link rel="stylesheet" href="CSS/state.css">
+    <link rel="stylesheet" href="CSS/theme.css">
+</head>
+<body class="theme-light">
+    <header class="layout-header">
+        <h1>Books of Invincible</h1>
+        <nav class="layout-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="layout-main">
+        <section class="module-book">
+            <h2>Book 1: The Beginning</h2>
+            <p>An action-packed start to the Invincible series, following the journey of Mark Grayson.</p>
+        </section>
+
+        <section class="module-book">
+            <h2>Book 2: Rise of a Hero</h2>
+            <p>Mark Grayson faces new challenges as he embraces his role as a hero in a world full of dangers.</p>
+        </section>
+
+        <section class="module-book is-hidden">
+            <h2>Book 3: The Fall</h2>
+            <p>In this emotional arc, Mark deals with personal loss and the weight of responsibility.</p>
+        </section>
+
+        <button class="module-button">Show More Books</button>
+    </main>
+
+    <footer class="layout-footer">
+        <p>2024 Books of Invincible | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

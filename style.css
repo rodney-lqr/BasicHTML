@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-left: 565px;
+}
+
+
+.MainBox{
+    width: 40%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    border: 5px solid rgb(255, 194, 194);
+    border-radius: 5px;
+    display:flex;
+    background-color: antiquewhite;
+}
+
+.MainBox .colorBox1{
+    border: 1px solid rgb(0, 0, 0);
+    height: 140px;
+    margin: 8px;
+    width: 240px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.MainBox .colorBox2{
+    border: 1px solid rgb(0, 0, 0);
+    height: 140px;
+    margin: 8px;
+    width: 240px;
+    border-radius: 5px;
+    background-color: yellow;
+}
+.MainBox .colorBox3{
+    border: 1px solid rgb(0, 0, 0);
+    height: 140px;
+    margin: 8px;
+    width: 240px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.MainBox .colorBox4{
+    border: 1px solid rgb(0, 0, 0);
+    height: 140px;
+    margin: 8px;
+    width: 240px;
+    border-radius: 5px;
+    background-color: rgb(0, 255, 60);
+}
+
+.MainBox .colorBox5{
+    border: 1px solid rgb(0, 0, 0);
+    height: 140px;
+    margin: 8px;
+    width: 240px;
+    border-radius: 5px;
+    background-color: rgb(255, 141, 33);
+}
+
+.MainBox .colorBox6{
+    border: 1px solid rgb(0, 0, 0);
+    height: 140px;
+    margin: 8px;
+    width: 240px;
+    border-radius: 5px;
+    background-color: rgb(13, 0, 189);
+}

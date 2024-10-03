@@ -1,0 +1,22 @@
+/* Theme styles for light and dark modes */
+.theme-light {
+    background-color: #f9f9f9;
+}
+
+.theme-dark {
+    background-color: #333;
+    color: #f9f9f9;
+}
+
+.theme-dark .layout-header {
+    background-color: #444;
+}
+
+.theme-dark .module-book {
+    background-color: #444;
+    color: #fff;
+}
+
+.theme-dark .module-button {
+    background-color: #007bff;
+}
